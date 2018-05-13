@@ -67,3 +67,4 @@ class App extends React.Component{
 //React.createElement("button", null, "Go")
 //ReactDOM.render(<Button0 label="Do" />, mountNode);
 ReactDOM.render(<App label="DoC" />, mountNode);
+/////////////////////////////////////////////////////
