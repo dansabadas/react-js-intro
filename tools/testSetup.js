@@ -1,4 +1,4 @@
-/ This file is written in ES5 since it's not transpiled by Babel.
+// This file is written in ES5 since it's not transpiled by Babel.
 // This file does the following:
 // 1. Sets Node environment variable
 // 2. Registers babel for transpiling our code for testing
