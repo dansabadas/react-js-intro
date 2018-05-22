@@ -3,6 +3,8 @@
 # https://jscomplete.com/repl/
 # https://github.com/ymerademi1/React-Redux-CoryHouse-
 
+# in window one run: webpack -w -d
+# in window 2 run nodemon after installing it globally (along with babel-node)
 const Button0 = (props) => {
 	return (
   	<button>Go {props.label}</button>
