@@ -3,8 +3,9 @@
 # https://jscomplete.com/repl/
 # https://github.com/ymerademi1/React-Redux-CoryHouse-
 
-# in window one run: webpack -w -d
-# in window 2 run nodemon after installing it globally (along with babel-node)
+#s1: in w1 run npm i -g babel-cli@6.3.15
+#s2: in window one run: webpack -w -d after running npm i webpack@1.13.0 -g
+#s3: in window 2 run nodemon after installing it globally (along with babel-node from step 1)
 const Button0 = (props) => {
 	return (
   	<button>Go {props.label}</button>
@@ -21,7 +22,7 @@ class Button extends React.Component{
     // this.setState((prevState) => ({ //prevState usage prevents race conditions
     //   	counter: prevState.counter + 1
     //   }));
-    this.props.onClickFunction(this.props.incrementValue);
+    this.props.onClickFunctionnodemon(this.props.incrementValue);
   };
   
   // constructor(props){
