@@ -1,5 +1,6 @@
 # react-js-intro
 # https://reactjs.org/
+# https://react-cn.github.io/react/downloads.html
 # https://jscomplete.com/repl/
 # https://github.com/ymerademi1/React-Redux-CoryHouse-
 
