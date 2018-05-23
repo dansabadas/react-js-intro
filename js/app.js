@@ -1,7 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import Hello from "./components/Hello";
+//import Hello from "./components/Hello";
+import Main from "./components/Main";
 
 // let React = require('react');
 // let ReactDOM = require('react-dom');
@@ -16,4 +17,4 @@ import Hello from "./components/Hello";
 // });
 
 //ReactDOM.render(React.createElement(Hello), document.getElementById('react'));
-ReactDOM.render(<Hello />, document.getElementById('react'));
+ReactDOM.render(<Main />, document.getElementById('react'));
