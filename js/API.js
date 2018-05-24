@@ -6,9 +6,21 @@ let API = {
     console.log("1. In API");
     
     //Ajax request to read /data/links
-    get("/data/links").done(resp => {
-        //console.log(resp);
-      ServerActions.receiveLinks(resp);
+    // get("/data/links").done(resp => {
+    //     //console.log(resp);
+    //   ServerActions.receiveLinks(resp);
+    // });
+
+    post("/graphql", {
+      query: `{
+        links {
+          _id,
+          title,
+          url
+        }
+      }`
+    }).done(resp => {
+      ServerActions.receiveLinks(resp.data.links);
     });
   }
 };
